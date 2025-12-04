@@ -1,0 +1,67 @@
+nav {
+  background-color: rgb(255, 94, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5vw;
+  padding: 1vw 3vw;
+  border-radius: 30px;
+  margin: 10px;
+  color: white;
+}
+
+.logo-and-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo-and-links .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.logo-and-links .links a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+}
+
+.logo-and-links .links a:hover {
+  scale: 1.1;
+  color: rgb(226, 226, 226);
+  text-shadow: 0 0 10px white;
+}
+
+nav button {
+  padding: 1vw 3vw;
+  color: rgb(255, 94, 0);
+  background-color: white;
+  border: 1px solid #dadada;
+  border-radius: 30px;
+  font-size: 1.1vw;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+nav button a {
+  text-decoration: none;
+  color: rgb(255, 94, 0);
+  transition: all 0.5s;
+}
+
+nav button:hover a {
+  text-decoration: none;
+  color: white;
+  scale: 1.01;
+}
+
+nav button:hover {
+  color: white;
+  background-color: rgb(255, 94, 0);
+  box-shadow: 0 0 20px white;
+  scale: 1.01;
+}
