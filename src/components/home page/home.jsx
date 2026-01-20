@@ -70,7 +70,7 @@ export default function Home() {
     let [status, setstatus] = useState(false);
 
     let deletefunct = () => {
-      let finaltasklist = todos.filter((value, index) => index != indexNumber);
+      let finaltasklist = todos.filter((value, index) => index !== indexNumber);
       settodos(finaltasklist);
 
       for (let i = 0; i < signupData.length; i++) {
